@@ -171,7 +171,7 @@ export class GuiModel {
                     ]
                 },
                 {
-                    "id": "AddActivityForm",
+                    "id": "AddActivityLocForm",
                     "title": "Activity",
                     "url": "/location/:locationKey/activity",
                     "formFieldList": [
@@ -453,7 +453,7 @@ export class GuiModel {
                             "search": true,
                             "url": "/activity/:activityKey/friend",
                             "form": {
-                                "form": "activityForm"
+                                "form": "FriendForm"
                             }
                         }
                     ]
